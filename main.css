@@ -1,0 +1,56 @@
+.text{ 
+    
+    padding-left: 5rem;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main h4{
+    color: orangered;
+}
+
+main p{
+    padding-bottom: 2rem;
+}
+
+.buy-link{
+    background-color: orangered;
+    padding: 0.5rem 1.3rem;
+    font-size: 12px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.img{
+    width: 100%;
+    height: 600px;
+    padding-top: 8rem;
+}
+
+
+@media (max-width:968px){
+    main{
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .img{
+        width: 100%;
+        max-height: 500px;
+        height: 100%;
+        padding-top: 8rem;
+    }
+
+    .text{
+        padding: 10px 5px;
+        text-align: center;
+    }
+
+    
+}
